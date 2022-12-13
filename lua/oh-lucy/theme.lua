@@ -43,7 +43,7 @@ M.base = {
     -- DiffIndexLine     = { fg = colors.gray3 },
 
 
-    -- EndOfBuffer = { fg = colors.bg },
+    EndOfBuffer = { fg = colors.bg },
     Error     = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
     ErrorMsg  = { fg = colors.gray, bg = colors.red_err, style = 'bold' },
     Exception = { fg = colors.white },
@@ -459,7 +459,6 @@ M.plugins = {
     NvimTreeEmptyFolderName  = { fg = colors.yellow, style = "italic" },
     NvimTreeCursorLine       = { fg = colors.line_fg, bg = colors.black1 },
     NvimTreeExecFile         = { fg = colors.green },
-    NvimTreeFolderIcon       = { fg = colors.comment },
     NvimTreeFolderName       = { fg = colors.white1 },
     NvimTreeGitDeleted       = { fg = colors.red_err },
     NvimTreeGitDirty         = { fg = colors.diff_add },
@@ -476,7 +475,7 @@ M.plugins = {
     NvimTreeSpecialFile      = { fg = colors.orange },
     NvimTreeSymlink          = { fg = colors.yellow },
     NvimTreeVertSplit        = { fg = colors.black },
-    NvimTreeEndOfBuffer      = { fg = colors.non_text },
+    NvimTreeEndOfBuffer      = { fg = colors.black },
     -----------------------------------------
 
     -----------------------------------------

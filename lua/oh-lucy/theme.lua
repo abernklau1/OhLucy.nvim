@@ -433,6 +433,18 @@ M.plugins = {
     pythonStatement   = { fg = colors.white },
     pythonBoolean     = { fg = colors.white },
     -----------------------------------------
+			
+			
+    -----------------------------------------
+    -- for cpp language
+    -----------------------------------------
+    cppBoolean = { fg = colors.boolean , style = config.italic_booleans },
+    cppException = { fg = colors.white },
+    cppFunction = { fg = colors.green_func },
+    cppInclude = { fg = colors.blue_type },
+    cppOperator   = { fg = colors.white },
+    cppStatement = { fg = colors.red_key_w },
+    -----------------------------------------
 
 
     -----------------------------------------

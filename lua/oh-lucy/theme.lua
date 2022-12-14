@@ -438,12 +438,13 @@ M.plugins = {
     -----------------------------------------
     -- for cpp language
     -----------------------------------------
-    cppBoolean = { fg = colors.boolean , style = config.italic_booleans },
-    cppException = { fg = colors.white },
+    cppBoolean = { fg = colors.white , style = config.italic_booleans },
+    cppConditional = { fg = colors.red_key_w },
+    cppException = { fg = colors.pink },
     cppFunction = { fg = colors.green_func },
-    cppInclude = { fg = colors.blue_type },
-    cppOperator   = { fg = colors.white },
-    cppStatement = { fg = colors.red_key_w },
+    cppInclude = { fg = colors.red_key_w },
+    cppOperator   = { fg = colors.red_key_w },
+    cppStatement = { fg = colors.white },
     -----------------------------------------
 
 

@@ -582,7 +582,7 @@ M.plugins = {
     ["@constant.builtin"]       = { fg = colors.pink },
     ["@constant.macro"]         = { fg = colors.blue_type },
     ["@constant"]           = { fg = colors.pink },
-    ["@constructor"]        = { fg = colors.white },
+    ["@constructor"]        = { fg = colors.green_func },
     ["@text.emphasis"]           = { style = 'italic' },
     ["@error"]              = { fg = colors.red_err, bg = colors.bg, style = 'bold' },
     ["@exception"]          = { fg = colors.red_key_w },

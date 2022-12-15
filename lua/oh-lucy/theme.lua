@@ -96,7 +96,7 @@ M.base = {
     Search              = { fg = colors.line_fg, bg = colors.orange },
     SignColumn          = { bg = colors.line_bg },
     Special             = { fg = colors.gray_punc },
-    SpecialChar         = { fg = colors.pink }, -- original yellow
+    SpecialChar         = { fg = colors.orange_wr }, -- original yellow
     SpecialComment      = { fg = colors.pink },
     SpecialKey          = { fg = colors.gray_punc, style = 'bold' },
     SpellBad            = { fg = colors.red_key_w, style = 'underline' },
@@ -110,7 +110,7 @@ M.base = {
     StatusLineTerm      = { fg = colors.green_func, bg = colors.black },
     StatusLineTermNC    = { fg = colors.gray_punc, bg = colors.black },
     StorageClass        = { fg = colors.blue_type },
-    String              = { fg = colors.pink }, -- original yellow
+    String              = { fg = colors.orange_wr }, -- original yellow
     Structure           = { fg = colors.green_func },
     Substitute          = { fg = colors.gray2, bg = colors.orange },
 
@@ -572,15 +572,15 @@ M.plugins = {
     -----------------------------------------
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
     -----------------------------------------
-    ["@annotation"]         = { fg = colors.pink }, -- original yellow
+    ["@annotation"]         = { fg = colors.orange_wr }, -- original yellow
     ["@attribute"]          = { fg = colors.white },
     ["@boolean"]            = { fg = colors.pink, style = config.italic_booleans },
-    ["@character"]          = { fg = colors.pink }, -- original yellow
-    ["@character.special"]    = { fg = colors.pink }, -- original yellow
+    ["@character"]          = { fg = colors.orange_wr }, -- original yellow
+    ["@character.special"]    = { fg = colors.orange_wr }, -- original yellow
     ["@comment"]            = { fg = colors.comment, style = 'italic' },
     ["@conditional"]         = { fg = colors.red_key_w },
     ["@constant.builtin"]       = { fg = colors.pink },
-    ["@constant.macro"]         = { fg = colors.blue_type },
+    ["@constant.macro"]         = { fg = colors.red_key_w }, -- original blue_type
     ["@constant"]           = { fg = colors.pink },
     ["@constructor"]        = { fg = colors.green_func },
     ["@text.emphasis"]           = { style = 'italic' },
@@ -599,7 +599,7 @@ M.plugins = {
     ["@keyword.return"]      = { fg = colors.red_key_w },
     ["@none"]                = { fg = colors.orange },
     ["@label"]               = { fg = colors.pink },
-    ["@text.literal"]            = { fg = colors.pink }, -- original yellow
+    ["@text.literal"]            = { fg = colors.orange_wr }, -- original yellow
     ["@method"]             = { fg = colors.green_func },
 	["@method.call"]             = { fg = colors.green_func },
     ["@namespace"]           = { fg = colors.blue_type },
@@ -614,10 +614,10 @@ M.plugins = {
     ["@punctuation.special"]        = { fg = colors.gray_punc },
     ["@repeat"]              = { fg = colors.red_key_w },
 	["@storageclass"] = {fg = colors.blue_type},
-    ["@string"]             = { fg = colors.pink }, -- original yellow
+    ["@string"]             = { fg = colors.orange_wr }, -- original yellow
     ["@string.escape"]       = { fg = colors.boolean },
     ["@string.regex"]         = { fg = colors.red_key_w },
-    ["@text.strong"]             = { fg = colors.pink }, -- original yellow
+    ["@text.strong"]             = { fg = colors.orange_wr }, -- original yellow
     ["@symbol"]             = { fg = colors.white },
     ["@tag"]                = { fg = colors.red_key_w },
     ["@tag.delimiter"]       = { fg = colors.gray_punc },
@@ -628,7 +628,7 @@ M.plugins = {
 	["@type.definition"]      = { fg = colors.red_key_w },
     ["@todo"]                = { fg = colors.orange, style = 'bold' },
     ["@type.qualifier"]      = { fg = colors.red_key_w },
-    ["@text.uri"]                = { fg = colors.pink, style = 'underline' }, -- original yellow
+    ["@text.uri"]                = { fg = colors.orange_wr, style = 'underline' }, -- original yellow
     ["@text.underline"]          = { style = 'underline' },
     ["@variable"]           = { fg = colors.white },
     ["@variable.builtin"]    = { fg = colors.pink },

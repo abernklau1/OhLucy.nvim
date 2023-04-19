@@ -1,7 +1,12 @@
 return {
   fg               = "#D7D7D7",
+<<<<<<< HEAD
   bg               = "#111111", -- original "#1B1D26",
   none             = "#111111", -- original "#1B1D26",
+=======
+  bg               = "#111111", -- original "#1B1D26"
+  none             = "#111111", -- original "#1B1D26"
+>>>>>>> 5905a61c823948a4cccce0ee80cbcb32320a0230
   --14161D
   dark             = '#14161D',
   comment          = "#5E6173",
@@ -15,8 +20,13 @@ return {
   cl_bg            = "#707891",
   diff_text        = '#568BB4',
   line_fg          = "#555B6C",
+<<<<<<< HEAD
   line_bg          = "#111111", -- original "#1B1D26",
   gutter_bg        = "#111111", -- original "#1B1D26",
+=======
+  line_bg          = "#111111", -- original "#1B1D26"
+  gutter_bg        = "#111111", -- original "#1B1D26"
+>>>>>>> 5905a61c823948a4cccce0ee80cbcb32320a0230
   non_text         = "#606978",
   selection_bg     = "#5E697E",
   selection_fg     = "#495163",
@@ -30,7 +40,11 @@ return {
   green      = "#76C5A4",
   blue_type  = '#8DBBD3',
   black1     = "#272932",
+<<<<<<< HEAD
   black      = "#0d0d0d", --original "#14161D",
+=======
+  black      = "#0d0d0d", --original "#14161D"
+>>>>>>> 5905a61c823948a4cccce0ee80cbcb32320a0230
   white1     = "#D7D7D7",
   white      = "#E9E9E9",
   gray_punc  = "#7C7E8C",

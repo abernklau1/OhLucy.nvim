@@ -93,7 +93,7 @@ M.base = {
 
   Repeat = { fg = colors.red_key_w },
 
-<<<<<<< HEAD
+------- HEAD
   Search              = { fg = colors.line_fg, bg = colors.orange },
   SignColumn          = { bg = colors.line_bg },
   Special             = { fg = colors.gray_punc },
@@ -135,7 +135,7 @@ M.base = {
     String              = { fg = colors.orange_wr }, -- original yellow
     Structure           = { fg = colors.green_func },
     Substitute          = { fg = colors.gray2, bg = colors.orange },
->>>>>>> 5905a61c823948a4cccce0ee80cbcb32320a0230
+
 
   TabLine      = { fg = colors.line_fg },
   TabLineFill  = { fg = colors.line_fg },
@@ -592,7 +592,7 @@ M.plugins = {
   -----------------------------------------
 
 
-<<<<<<< HEAD
+------- HEAD
   -----------------------------------------
   -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
   -----------------------------------------
@@ -658,7 +658,7 @@ M.plugins = {
   ["@variable.builtin"]      = { fg = colors.pink },
   ["@define"]                = { fg = colors.red_key_w },
   -----------------------------------------
-=======
+--------
     -----------------------------------------
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
     -----------------------------------------
@@ -724,7 +724,7 @@ M.plugins = {
     ["@variable.builtin"]    = { fg = colors.pink },
     ["@define"]             = { fg = colors.red_key_w },
     -----------------------------------------
->>>>>>> 5905a61c823948a4cccce0ee80cbcb32320a0230
+
 }
 
 return M

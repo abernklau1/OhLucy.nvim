@@ -93,7 +93,6 @@ M.base = {
 
   Repeat = { fg = colors.red_key_w },
 
-------- HEAD
   Search              = { fg = colors.line_fg, bg = colors.orange },
   SignColumn          = { bg = colors.line_bg },
   Special             = { fg = colors.gray_punc },
@@ -114,7 +113,6 @@ M.base = {
   String              = { fg = colors.pink }, -- original yellow
   Structure           = { fg = colors.green_func },
   Substitute          = { fg = colors.gray2, bg = colors.orange },
--------
     Search              = { fg = colors.line_fg, bg = colors.orange },
     SignColumn          = { bg = colors.line_bg },
     Special             = { fg = colors.gray_punc },
@@ -190,8 +188,6 @@ M.base = {
   --        end Editors settings
   -----------------------------------------
 }
-
-
 
 
 M.plugins = {
@@ -575,9 +571,6 @@ M.plugins = {
   CodeActionMenuDetailsUndefined     = { fg = colors.comment },
 
 
-
-
-
   -----------------------------------------
   -- MAKE
   -----------------------------------------
@@ -592,7 +585,6 @@ M.plugins = {
   -----------------------------------------
 
 
-------- HEAD
   -----------------------------------------
   -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
   -----------------------------------------
@@ -658,7 +650,6 @@ M.plugins = {
   ["@variable.builtin"]      = { fg = colors.pink },
   ["@define"]                = { fg = colors.red_key_w },
   -----------------------------------------
---------
     -----------------------------------------
     -- treesitter:  github.com/nvim-treesitter/nvim-treesitter
     -----------------------------------------

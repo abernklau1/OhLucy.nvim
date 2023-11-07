@@ -45,7 +45,7 @@ return {
   gray       = "#21252D",
   orange     = "#E0828D",
   boolean    = "#AF98E6",
-  orange_wr  = "#E39A65",
+  orange_wr  = "#EFB388",
   pink       = "#BDA9D4",
   yellow     = "#E3CF65",
   sand_op    = "#D3BB8D",

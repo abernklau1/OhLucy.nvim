@@ -28,11 +28,12 @@ return {
   vsplit_bg        = "#21252D",
   visual_select_bg = "#272932",
 
-  red_key_w  = "#FB7DA7",
+  red_key_w  = "#F8ACC5",  -- "#FB7DA7",
   red_err    = "#D95555",
   green_func = '#74C7A4',
   green      = "#76C5A4",
   blue_type  = '#8DBBD3',
+  blue_type2 = "#AADAF3",
   black1     = "#272932",
   black      = "#0d0d0d", --original "#14161D",
   black      = "#0d0d0d", --original "#14161D"
@@ -48,5 +49,5 @@ return {
   pink       = "#BDA9D4",
   yellow     = "#E3CF65",
   sand_op    = "#D3BB8D",
-  red_op     = "#DD6262"
+  red_op     = "#DD6262",
 }

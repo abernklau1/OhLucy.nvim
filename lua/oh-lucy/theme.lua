@@ -146,7 +146,7 @@ M.base = {
   Type         = { fg = colors.blue_type },
   Typedef      = { fg = colors.blue_type },
 
-  Variable  = { fg = colors.white },
+  Variable  = { fg = colors.blue_type2 },
   VertSplit = { fg = colors.vsplit_bg },
   Visual    = { fg = "NONE", bg = colors.visual_select_bg, style = 'bold' },
   VisualNOS = { fg = colors.selection_fg, bg = colors.selection_bg },

@@ -50,4 +50,5 @@ return {
   yellow     = "#E3CF65",
   sand_op    = "#D3BB8D",
   red_op     = "#DD6262",
+  purple     = "#beadeb",
 }

@@ -54,7 +54,7 @@ M.base = {
   Folded      = { fg = colors.white, bg = colors.gray },
   Function    = { fg = colors.green_func },
 
-  Identifier = { fg = colors.white1 },
+  Identifier = { fg = colors.blue_type2 },
   Ignore     = { fg = colors.gray_punc },
   IncSearch  = { fg = colors.bg, bg = colors.orange },
   Include    = { fg = colors.blue_type },
@@ -463,7 +463,7 @@ M.plugins = {
   cppFunction    = { fg = colors.green_func },
   cppInclude     = { fg = colors.red_key_w },
   cppOperator    = { fg = colors.red_key_w },
-  cppStatement   = { fg = colors.white },
+  cppStatement   = { fg = colors.purple },
   -----------------------------------------
 
 
@@ -667,7 +667,7 @@ M.plugins = {
     ["@text.emphasis"]           = { style = 'italic' },
     ["@error"]              = { fg = colors.red_err, bg = colors.bg, style = 'bold' },
     ["@exception"]          = { fg = colors.red_key_w },
-    ["@field"]              = { fg = colors.white },
+    ["@field"]              = { fg = colors.green }, 
     ["@float"]              = { fg = colors.pink },
     ["@function.builtin"]        = { fg = colors.green_func },
     ["@function.macro"]           = { fg = colors.blue_type },
@@ -711,7 +711,7 @@ M.plugins = {
     ["@type.qualifier"]      = { fg = colors.red_key_w },
     ["@text.uri"]                = { fg = colors.orange_wr, style = 'underline' }, -- original yellow
     ["@text.underline"]          = { style = 'underline' },
-    ["@variable"]           = { fg = colors.white },
+    ["@variable"]           = { fg = colors.blue_type2 },
     ["@variable.builtin"]    = { fg = colors.pink },
     ["@define"]             = { fg = colors.red_key_w },
     -----------------------------------------

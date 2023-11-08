@@ -464,6 +464,7 @@ M.plugins = {
   cppInclude     = { fg = colors.red_key_w },
   cppOperator    = { fg = colors.red_key_w },
   cppStatement   = { fg = colors.purple },
+  cppModifier    = { fg = colors.purple },
   -----------------------------------------
 
 

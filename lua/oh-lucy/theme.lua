@@ -142,7 +142,7 @@ M.base = {
   TermCursor   = { fg = colors.cursor_fg, bg = colors.cursor_bg },
   TermCursorNC = { fg = colors.cursor_fg, bg = colors.cursor_bg },
   Title        = { fg = colors.gray_punc },
-  Todo         = { fg = colors.yellow2, style = 'bold' },
+  Todo         = { fg = colors.yellow2 }, --style = 'bold' },
   Type         = { fg = colors.blue_type },
   Typedef      = { fg = colors.blue_type },
 

@@ -48,6 +48,7 @@ return {
   orange_wr  = "#EFB388",
   pink       = "#BDA9D4",
   yellow     = "#E3CF65",
+  yellow2    = "#eadc95",
   sand_op    = "#D3BB8D",
   red_op     = "#DD6262",
   purple     = "#beadeb",

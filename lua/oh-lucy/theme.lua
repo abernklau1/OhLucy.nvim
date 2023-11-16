@@ -465,6 +465,8 @@ M.plugins = {
   cppOperator    = { fg = colors.red_key_w },
   cppStatement   = { fg = colors.purple },
   cppModifier    = { fg = colors.purple },
+  cppExceptions  = { fg = colors.purple },
+  cppBoolean     = { fg = colors.purple },
   -----------------------------------------
 
 

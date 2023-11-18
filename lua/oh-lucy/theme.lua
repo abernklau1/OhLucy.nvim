@@ -616,7 +616,7 @@ M.plugins = {
   ["@include"]               = { fg = colors.red_key_w },
   ["@include.cpp"]	     = { fg = colors.blue_type },
   ["@keyword"]               = { fg = colors.red_key_w },
-  ["@keyword.cpp"] 	     = { fg = colors.red_op },
+  ["@keyword.cpp"] 	     = { fg = colors.purple },
   ["@keyword.function"]      = { fg = colors.red_key_w },
   ["@keyword.operator"]      = { fg = colors.red_key_w },
   ["@keyword.operator.cpp"]  = { fg = colors.purple },

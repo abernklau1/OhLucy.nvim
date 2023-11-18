@@ -467,6 +467,8 @@ M.plugins = {
   cppModifier    = { fg = colors.purple },
   cppExceptions  = { fg = colors.purple },
   cppBoolean     = { fg = colors.purple },
+  cParen         = { fg = colors.gray_punc },
+  cBlock         = { fg = colors.gray_punc },
   -----------------------------------------
 
 

@@ -471,6 +471,14 @@ M.plugins = {
   cBlock         = { fg = colors.gray_punc },
   -----------------------------------------
 
+  -----------------------------------------
+  -- for riscv asm
+  -----------------------------------------
+  riscvDirective    = { fg = colors.purple },
+  riscvIInstruction = { fg = colors.blue_type2 },
+  riscvLabel        = { fg = colors.green_func },
+  -----------------------------------------
+
 
   -----------------------------------------
   --    Neogit: github.com/TimUntersberger/neogit

@@ -479,6 +479,11 @@ M.plugins = {
   riscvLabel        = { fg = colors.green_func },
   -----------------------------------------
 
+  -----------------------------------------
+  -- for sql
+  -----------------------------------------
+  ["@keyword.sql"] = { fg = colors.green_func },
+
 
   -----------------------------------------
   --    Neogit: github.com/TimUntersberger/neogit
